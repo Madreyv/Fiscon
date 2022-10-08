@@ -1,0 +1,15 @@
+<form [formGroup]="formulario">
+    <mat-form-field appearance="outline" formControlName="nome">
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Digite seu nome">
+        <mat-icon matSuffix >account_circle</mat-icon>
+    </mat-form-field>
+    <mat-form-field appearance="outline" formControlName="telefone">
+        <mat-label>Telefone</mat-label>
+        <input matInput placeholder="(xx)xxxx-xxxx">
+        <mat-icon matSuffix>phone</mat-icon>
+    </mat-form-field>
+    <button mat-raised-button>Limpar</button>
+    <button mat-raised-button color="primary">Salvar</button>
+
+</form>
